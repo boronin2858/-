@@ -1,0 +1,15 @@
+image: maven:3.6.3-jdk-11 
+before_script:
+  - mvn --version
+
+task4:
+  script:
+    - cd task4 && mvn package
+
+task5:
+  script:
+    - cd task5 && mvn package
+
+task6:
+  script:
+    - cd task6 && mvn package
